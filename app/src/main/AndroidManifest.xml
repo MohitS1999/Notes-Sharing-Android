@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.samplenotes">
+<uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Web"></activity>
+        <activity android:name=".EeEight" />
+        <activity android:name=".BtEight" />
+        <activity android:name=".CeEight" />
+        <activity android:name=".EcEight" />
+        <activity android:name=".MeEight" />
+        <activity android:name=".CsEight" />
+        <activity android:name=".EightSemester" />
+        <activity android:name=".BtSeven" />
+        <activity android:name=".CeSeven" />
+        <activity android:name=".EcSeven" />
+        <activity android:name=".EeSeven" />
+        <activity android:name=".MeSeven" />
+        <activity android:name=".CsSeven" />
+        <activity android:name=".SevenSemester" />
+        <activity android:name=".BtSix" />
+        <activity android:name=".CeSix" />
+        <activity android:name=".EcSix" />
+        <activity android:name=".EeSix" />
+        <activity android:name=".MeSix" />
+        <activity android:name=".CsSix" />
+        <activity android:name=".SixSemester" />
+        <activity android:name=".BtFive" />
+        <activity android:name=".CeFive" />
+        <activity android:name=".EcFive" />
+        <activity android:name=".EeFive" />
+        <activity android:name=".MeFive" />
+        <activity android:name=".CsFive" />
+        <activity android:name=".FiveSemester" />
+        <activity android:name=".EcForth" />
+        <activity android:name=".EeForth" />
+        <activity android:name=".BtForth" />
+        <activity android:name=".CeForth" />
+        <activity android:name=".MeForth" />
+        <activity android:name=".CsForth" />
+        <activity android:name=".FourSemester" />
+        <activity android:name=".MeThird" />
+        <activity android:name=".EeThird" />
+        <activity android:name=".EcThird" />
+        <activity android:name=".CeThird" />
+        <activity android:name=".BtThird" />
+        <activity android:name=".CsThird" />
+        <activity android:name=".ThreeSemester" />
+        <activity android:name=".BtSecond" />
+        <activity android:name=".CeSecond" />
+        <activity android:name=".EcSecond" />
+        <activity android:name=".EeSecond" />
+        <activity android:name=".MeSecond" />
+        <activity android:name=".CsSecond" />
+        <activity android:name=".BtFirst" />
+        <activity android:name=".EeFirst" />
+        <activity android:name=".EcFirst" />
+        <activity android:name=".CeFirst" />
+        <activity android:name=".MeFirst" />
+        <activity android:name=".CsFirst" />
+        <activity android:name=".SecondSemester" />
+        <activity android:name=".FirstSemester" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

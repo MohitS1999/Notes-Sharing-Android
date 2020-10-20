@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">SampleNotes</string>
+    <string name="semester">
+        <item>1st Semester</item>
+        <item>2nd Semester</item>
+        <item>3rd Semester</item>
+        <item>4th Semester</item>
+        <item>5th Semester</item>
+        <item>6th Semester</item>
+        <item>7th Semester</item>
+        <item>8th Semester</item>
+    </string>
+    <string name="mechanical_engineering">Mechanical Engineering</string>
+    <string name="electronic_n_engineering">Electronic\n Engineering</string>
+    <string name="civil_n_engineering">Civil\n Engineering</string>
+    <string name="electrical_n_engineering">Electrical\n Engineering</string>
+    <string name="computer_sci_n_engineering">Computer Sci\n Engineering</string>
+    <string name="engineering_notes">Engineering Notes</string>
+    <string name="biotechnology_n_engineering">BioTechnology\n Engineering</string>
+    <string name="_3rd_semester_n_notes">3rd Semester\n Notes</string>
+    <string name="_5th_semester_n_notes">5th Semester\n Notes</string>
+    <string name="_1st_semester_n_notes">1ST Semester\n Notes</string>
+    <string name="_6th_semester_n_notes">6th Semester\n Notes</string>
+    <string name="_7th_semester_n_notes">7th Semester\n Notes</string>
+    <string name="_2nd_semester_n_notes">2nd Semester\n Notes</string>
+</resources>
