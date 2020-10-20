@@ -20,6 +20,12 @@ Welcome to Notes sharing open-source Android app!
 - Money Saving
 - Time Saving
 
+### Installing the App on your Android Device
+
+Installation of FetLife App is a bit different than for Apps from the Google Play store, but it is still pretty straightforward, Android OS will guide you through the whole process.
+
+Just download our latest version [NotesSharing.apk](https://github.com/fetlife/android/releases/download/v3.0.3/fetlife-3.0.3.apk) and follow the on-screen prompts on your device.
+
 ### Want to Contribute?
 
 We appreciate any feedback or comments you have about our Android App. If you feel like going even further and jumping into our code, you are more than welcome to do so.
