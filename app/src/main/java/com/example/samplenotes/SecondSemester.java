@@ -75,9 +75,9 @@ public class SecondSemester extends AppCompatActivity {
 
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), BtSecond.class);
+                //Intent intent = new Intent(getApplicationContext(), BtSecond.class);
                 Toast.makeText(getApplicationContext(),"Bio Tech",Toast.LENGTH_SHORT).show();
-                startActivity(intent);
+                //startActivity(intent);
             }
         });
     }

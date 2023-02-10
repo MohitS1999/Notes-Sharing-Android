@@ -4,12 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Web">
-    <com.github.barteksc.pdfviewer.PDFView
-        android:id="@+id/pdfView"
+    tools:context=".NotesForEachSemester">
+
+    <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
-
-
-
+        android:layout_height="match_parent"
+        android:id="@+id/recyclceViewNotes"/>
 </androidx.constraintlayout.widget.ConstraintLayout>

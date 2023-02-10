@@ -76,9 +76,9 @@ public class SixSemester extends AppCompatActivity {
 
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), BtSix.class);
+                //Intent intent = new Intent(getApplicationContext(), BtSix.class);
                 Toast.makeText(getApplicationContext(),"Bio Tech",Toast.LENGTH_SHORT).show();
-                startActivity(intent);
+                //startActivity(intent);
             }
         });
     }

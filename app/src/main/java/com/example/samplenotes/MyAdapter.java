@@ -18,11 +18,12 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
     String data1[];
     int images[];
     Context context;
-    public MyAdapter(Context ct, String s1[], int image[]){
+    String courseName;
+    public MyAdapter(Context ct, String s1[], int image[],String courseName){
         context=ct;
         data1=s1;
         images=image;
-
+        this.courseName = courseName;
     }
 
     @NonNull
@@ -62,42 +63,58 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
             Intent intent;
             int pos=getAdapterPosition();
             if (pos==0){
-                intent=new Intent(context,FirstSemester.class);
+                intent=new Intent(context,NotesForEachSemester.class);
+                intent.putExtra("courseName",courseName);
+                intent.putExtra("semesterName","firstSemester");
                 Toast.makeText(context,"Welcome To First Semester",Toast.LENGTH_SHORT).show();
                 context.startActivity(intent);
             }
             if (pos==1){
-                intent=new Intent(context,SecondSemester.class);
+                intent=new Intent(context,NotesForEachSemester.class);
+                intent.putExtra("courseName",courseName);
+                intent.putExtra("semesterName","secondSemester");
                 Toast.makeText(context,"Welcome To Second Semester",Toast.LENGTH_SHORT).show();
                 context.startActivity(intent);
             }
 
             if (pos==2){
-                intent=new Intent(context,ThreeSemester.class);
+                intent=new Intent(context,NotesForEachSemester.class);
+                intent.putExtra("courseName",courseName);
+                intent.putExtra("semesterName","thirdSemester");
                 Toast.makeText(context,"Welcome To Third Semester",Toast.LENGTH_SHORT).show();
                 context.startActivity(intent);
             }
             if (pos==3){
-                intent=new Intent(context,FourSemester.class);
+                intent=new Intent(context,NotesForEachSemester.class);
+                intent.putExtra("courseName",courseName);
+                intent.putExtra("semesterName","forthSemester");
                 Toast.makeText(context,"Welcome To Forth Semester",Toast.LENGTH_SHORT).show();
                 context.startActivity(intent);
             }
             if (pos==4){
-                intent=new Intent(context,FiveSemester.class);
+                intent=new Intent(context,NotesForEachSemester.class);
+                intent.putExtra("courseName",courseName);
+                intent.putExtra("semesterName","fifthSemester");
                 Toast.makeText(context,"Welcome To Fifth Semester",Toast.LENGTH_SHORT).show();
                 context.startActivity(intent);
             }
             if (pos==5){
-                intent=new Intent(context,SixSemester.class);
+                intent=new Intent(context,NotesForEachSemester.class);
+                intent.putExtra("courseName",courseName);
+                intent.putExtra("semesterName","sixthSemester");
                 Toast.makeText(context,"Welcome To Six Semester",Toast.LENGTH_SHORT).show();
                 context.startActivity(intent);
             }
             if (pos==6){
-                intent=new Intent(context,SevenSemester.class);
+                intent=new Intent(context,NotesForEachSemester.class);
+                intent.putExtra("courseName",courseName);
+                intent.putExtra("semesterName","seventhSemester");
                 Toast.makeText(context,"Welcome To Seventh Semester",Toast.LENGTH_SHORT).show();
                 context.startActivity(intent);
             }if (pos==7){
-                intent=new Intent(context,EightSemester.class);
+                intent=new Intent(context,NotesForEachSemester.class);
+                intent.putExtra("courseName",courseName);
+                intent.putExtra("semesterName","eightSemester");
                 Toast.makeText(context,"Welcome To Eight Semester",Toast.LENGTH_SHORT).show();
                 context.startActivity(intent);
             }

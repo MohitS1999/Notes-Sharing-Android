@@ -4,6 +4,8 @@ import android.content.Context;
 import android.content.Intent;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
+import android.net.Uri;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -16,14 +18,16 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import org.w3c.dom.Text;
 
+import java.util.List;
+
 public class PDFAdapter extends RecyclerView.Adapter<PDFAdapter.MyViewHolder>{
+    private static final String TAG = "PDFAdapter";
     Context context;
-    String name[];
-    String links[];
-    public PDFAdapter(Context ct,String n[],String l[]) {
-        name=n;
+    List<NotesModel> list;
+    public PDFAdapter(Context ct,List<NotesModel> list) {
         context=ct;
-        links=l;
+        this.list = list;
+        Log.d(TAG, "PDFAdapter: "+list);
     }
 
 
@@ -39,12 +43,13 @@ public class PDFAdapter extends RecyclerView.Adapter<PDFAdapter.MyViewHolder>{
 
     @Override
     public void onBindViewHolder(@NonNull MyViewHolder holder, int position) {
-        holder.title.setText(name[position]);
+        Log.d(TAG, "onBindViewHolder: "+position);
+        holder.title.setText(list.get(position).getName());
     }
 
     @Override
     public int getItemCount() {
-        return name.length;
+        return list.size();
     }
 
     class MyViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
@@ -63,8 +68,11 @@ public class PDFAdapter extends RecyclerView.Adapter<PDFAdapter.MyViewHolder>{
                 if (!isNetworkAvailable()){
                     Toast.makeText(context,"You are Not Connected!!!",Toast.LENGTH_SHORT).show();
                 }else {
+//                    intent = new Intent(Intent.ACTION_VIEW);
+//                    intent.setDataAndType(Uri.parse(list.get(pos).getUrl()),"application/pdf");
+//                    context.startActivity(intent);
                     intent = new Intent(context, Web.class);
-                    intent.putExtra("url", links[pos]);
+                    intent.putExtra("url", list.get(pos).getUrl());
                     context.startActivity(intent);
                 }
             }

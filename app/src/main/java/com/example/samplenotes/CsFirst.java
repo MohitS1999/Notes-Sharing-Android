@@ -20,9 +20,6 @@ public class CsFirst extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cs_first);
-        recyclerView=findViewById(R.id.recyclceView);
-        PDFAdapter pdfAdapter=new PDFAdapter(this,name,links);
-        recyclerView.setLayoutManager(new LinearLayoutManager(this));
-        recyclerView.setAdapter(pdfAdapter);
+
     }
 }

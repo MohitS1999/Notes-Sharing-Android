@@ -76,9 +76,9 @@ public class SevenSemester extends AppCompatActivity {
 
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), BtSeven.class);
-                Toast.makeText(getApplicationContext(),"Bio Tech",Toast.LENGTH_SHORT).show();
-                startActivity(intent);
+                //Intent intent = new Intent(getApplicationContext(), BtSeven.class);
+                //Toast.makeText(getApplicationContext(),"Bio Tech",Toast.LENGTH_SHORT).show();
+                //startActivity(intent);
             }
         });
     }
