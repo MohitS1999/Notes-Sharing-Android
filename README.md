@@ -20,10 +20,10 @@ Welcome to Notes sharing open-source Android app!
   
 </p>
 
-<p float="left">
-  <img src="Image/home_page.jpeg" width="320" />
-  <img src="Image/notes_scroll.jpeg" width="320" /> 
-  <img src="Image/pdf_view.jpeg" width="320" />
+<p align="center">
+  <img src="Image/home_page.jpeg" width="250" />
+  <img src="Image/notes_scroll.jpeg" width="250" /> 
+  <img src="Image/pdf_view.jpeg" width="250" />
 </p>
 
 ### Benefits
