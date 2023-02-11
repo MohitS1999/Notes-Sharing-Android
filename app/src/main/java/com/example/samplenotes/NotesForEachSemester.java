@@ -98,11 +98,75 @@ public class NotesForEachSemester extends AppCompatActivity {
         }
         // Electronics
 
+        if (courseName.equals("Electronics")){
+
+            switch(semesterName){
+                case "firstSemester" : callFireStore("1ec"); break;
+                case "secondSemester" : callFireStore("2ec"); break;
+                case "thirdSemester" : callFireStore("3ec"); break;
+                case "forthSemester" : callFireStore("4ec"); break;
+                case "fifthSemester" : callFireStore("5ec"); break;
+                case "sixthSemester" : callFireStore("6ec"); break;
+                case "seventhSemester" : callFireStore("7ec"); break;
+                case "eightSemester" : callFireStore("8ec"); break;
+                default: Log.d(TAG, "getNotesIntoList: ");
+            }
+
+        }
+
         // Electrical
+        if (courseName.equals("Electrical")){
+
+            switch(semesterName){
+                case "firstSemester" : callFireStore("1en"); break;
+                case "secondSemester" : callFireStore("2en"); break;
+                case "thirdSemester" : callFireStore("3en"); break;
+                case "forthSemester" : callFireStore("4en"); break;
+                case "fifthSemester" : callFireStore("5en"); break;
+                case "sixthSemester" : callFireStore("6en"); break;
+                case "seventhSemester" : callFireStore("7en"); break;
+                case "eightSemester" : callFireStore("8en"); break;
+                default: Log.d(TAG, "getNotesIntoList: ");
+            }
+
+        }
+
 
         //Civil
 
+        if (courseName.equals("Civil")){
+
+            switch(semesterName){
+                case "firstSemester" : callFireStore("1ce"); break;
+                case "secondSemester" : callFireStore("2ce"); break;
+                case "thirdSemester" : callFireStore("3ce"); break;
+                case "forthSemester" : callFireStore("4ce"); break;
+                case "fifthSemester" : callFireStore("5ce"); break;
+                case "sixthSemester" : callFireStore("6ce"); break;
+                case "seventhSemester" : callFireStore("7ce"); break;
+                case "eightSemester" : callFireStore("8ce"); break;
+                default: Log.d(TAG, "getNotesIntoList: ");
+            }
+
+        }
+
         //BioTech
+
+        if (courseName.equals("BioTech")){
+
+            switch(semesterName){
+                case "firstSemester" : callFireStore("1bt"); break;
+                case "secondSemester" : callFireStore("2bt"); break;
+                case "thirdSemester" : callFireStore("3bt"); break;
+                case "forthSemester" : callFireStore("4bt"); break;
+                case "fifthSemester" : callFireStore("5bt"); break;
+                case "sixthSemester" : callFireStore("6bt"); break;
+                case "seventhSemester" : callFireStore("7bt"); break;
+                case "eightSemester" : callFireStore("8bt"); break;
+                default: Log.d(TAG, "getNotesIntoList: ");
+            }
+
+        }
 
     }
 
