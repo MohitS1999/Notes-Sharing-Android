@@ -22,7 +22,7 @@ Welcome to Notes sharing open-source Android app!
 
 ### Installing the App on your Android Device
 
-Just download our latest version [NotesSharing.apk](https://github.com/MohitS1999/Notes-Sharing-Android/blob/master/NotesSharing.apk) and follow the on-screen prompts on your device.
+Just download our latest version [NotesSharing.apk](Image/NotesSharing.apk) and follow the on-screen prompts on your device.
 
 ### Want to Contribute?
 
