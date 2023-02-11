@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="Image/background_github.jpeg" width="1220" />
+</P>
+
+
 # **Notes Sharing | Android**
 ---
 
@@ -8,10 +13,18 @@ Welcome to Notes sharing open-source Android app!
 - Android OS version 5.0 or newer
 
 ### Screenshots
-![](Image/pic1.jpeg)
-![](Image/pic2.jpeg)
-![](Image/pic3.jpeg)
-![](Image/pic4.jpeg)
+
+<p align="center">
+  <img src="Image/login_page.jpeg" width="420" />
+  <img src="Image/verify_otp.jpeg" width="420" /> 
+  
+</p>
+
+<p float="left">
+  <img src="Image/home_page.jpeg" width="320" />
+  <img src="Image/notes_scroll.jpeg" width="320" /> 
+  <img src="Image/pdf_view.jpeg" width="320" />
+</p>
 
 ### Benefits
 - Get the notes in hand
@@ -22,7 +35,7 @@ Welcome to Notes sharing open-source Android app!
 
 ### Installing the App on your Android Device
 
-Just download our latest version [NotesSharing.apk](Image/NotesSharing.apk) and follow the on-screen prompts on your device.
+Just download our latest version [NotesSharing.apk](https://drive.google.com/file/d/1e3b2Ssve6xhX6CEIVoQ5LSzrk4ENJHxS/view?usp=sharing) and follow the on-screen prompts on your device.
 
 ### Want to Contribute?
 
