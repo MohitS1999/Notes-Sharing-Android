@@ -17,13 +17,11 @@ Welcome to Notes sharing open-source Android app!
 <p align="center">
   <img src="Image/login_page.jpeg" width="250" />
   <img src="Image/verify_otp.jpeg" width="250" />
-  <img src="Image/semester.jpeg" width="250" />
-  
-  
+  <img src="Image/home_page.jpeg" width="250" />
 </p>
 
 <p align="center">
-  <img src="Image/home_page.jpeg" width="250" />
+  <img src="Image/semester.jpeg" width="250" />
   <img src="Image/notes_scroll.jpeg" width="250" /> 
   <img src="Image/pdf_view.jpeg" width="250" />
 </p>
