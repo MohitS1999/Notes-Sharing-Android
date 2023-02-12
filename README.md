@@ -15,8 +15,10 @@ Welcome to Notes sharing open-source Android app!
 ### Screenshots
 
 <p align="center">
-  <img src="Image/login_page.jpeg" width="400" />
-  <img src="Image/verify_otp.jpeg" width="400" /> 
+  <img src="Image/login_page.jpeg" width="250" />
+  <img src="Image/verify_otp.jpeg" width="250" />
+  <img src="Image/semester.jpeg" width="250" />
+  
   
 </p>
 
